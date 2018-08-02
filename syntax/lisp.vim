@@ -1,7 +1,7 @@
 " Lisp syn file
 " Language: Lisp
-" Maintainer: A. Aguilar
-" Credit: A. Aguilar
+" Maintainer: Shapesncats
+" Credit: Shapesncats
 
 if exists("b:current_syntax")
   finish
@@ -47,9 +47,5 @@ hi def link todo OLispTodo
 " }}}
 
 let b:current_syntax = 'lisp'
-
-if main_syntax == 'lisp'
-  unlet main_syntax
-endif
 
 " vim: set foldmethod=marker
