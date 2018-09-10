@@ -1,7 +1,6 @@
-" Lisp syn file
+" Lisp syntax file for Sybil
 " Language: Lisp
 " Maintainer: Shapesncats
-" Credit: Shapesncats
 
 if exists("b:current_syntax")
   finish
@@ -28,21 +27,21 @@ syn region string start='\"' end='\"'
 " }}}
 " Highlighting Groups: {{{
 
-hi def link funcallSymbol OLispFunction
-hi def link exteriorSymbol OLispExtSymb
-hi def link exteriorFuncallSymbol OLispExtFunSymb
-hi def link functionNamespace OLispFunName
-hi def link lambdaListIndicators OLispLLI
-hi def link comment OLispComment
-hi def link keyword OLispKey
-hi def link string OLispString
+hi def link funcallSymbol SybilFunction
+hi def link exteriorSymbol SybilExtSymb
+hi def link exteriorFuncallSymbol SybilExtFunSymb
+hi def link functionNamespace SybilFunName
+hi def link lambdaListIndicators SybilLLI
+hi def link comment SybilComment
+hi def link keyword SybilKey
+hi def link string SybilString
 
 
-hi def link defSymbol OLispDefSymb
-hi def link exteriorDefSymb OLispExtDefSymb
-hi def link withSymbol OLispWSymb
-hi def link exteriorWithSymb OLispExtWSymb
-hi def link todo OLispTodo
+hi def link defSymbol SybilDefSymb
+hi def link exteriorDefSymb SybilExtDefSymb
+hi def link withSymbol SybilWSymb
+hi def link exteriorWithSymb SybilExtWSymb
+hi def link todo SybilTodo
 
 " }}}
 
