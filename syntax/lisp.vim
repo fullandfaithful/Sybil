@@ -1,6 +1,6 @@
-" Lisp syntax file for Sybil
+" Sybil
 " Language: Lisp
-" Maintainer: Shapesncats
+" Maintainer: shapesncats
 
 if exists("b:current_syntax")
   finish
