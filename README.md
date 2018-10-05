@@ -6,7 +6,7 @@ Dead simple syntax highlighting for Lisp. Sybil will colour Lisp following a few
 
 ## Installation
 
-If you're using Plug, write the following to your .vimrc.
+If you're using Plug, write the following to your `.vimrc`.
 
 ```
 Plug 'shapesncats/ordinary-lisp'
