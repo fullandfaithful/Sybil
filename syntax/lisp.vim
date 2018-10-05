@@ -7,12 +7,13 @@ if exists("b:current_syntax")
 endif
 
 " Syntax: {{{
+
 syn keyword todo TODO XXX
 syn region comment start=';' end='\n' contains=todo
 
 syn match funcallSymbol '\((\s*\)\@<=\<[^() \t]\+\>'
 syn match exteriorSymbol '\<[^() \t]\+:\{1,2}[^() \t]\+\>'
-syn match exteriorFuncallSymbol '\((\s*\)\@<=\<[^() \t]\+:\{1,2}[^()\s]\+\>'
+syn match exteriorFuncallSymbol '\((\s*\)\@<=\<[^() \t]\+:\{1,2}[^() \t]\+\>'
 syn match functionNamespace '#\'[^() \t]\+'
 syn match keyword '\<:[^() \t]\+\>'
 syn match lambdaListIndicators '&optional\|&rest\|&key\|&allow-other-keys\|&aux\|&whole\|&body\|&environment'
@@ -24,6 +25,7 @@ syn match exteriorWithSymb '\(\<[^() \t]\+\):with[^() \t]\+\>'
 
 syn region sexpr start='(' end=')' fold transparent
 syn region string start='\"' end='\"'
+
 " }}}
 " Highlighting Groups: {{{
 
