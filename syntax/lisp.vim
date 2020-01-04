@@ -22,9 +22,9 @@ syn match defSymbol '\<def[^() \t]\+\>'
 syn match exteriorDefSymb '\<[^() \t]\+:def[^() \t]\+\>'
 syn match withSymbol '\<with[^() \t]\+\>'
 syn match exteriorWithSymb '\(\<[^() \t]\+\):with[^() \t]\+\>'
+syn match string '\([''"]\)\(.\{-}\)\1'
 
 syn region sexpr start='(' end=')' fold transparent
-syn region string start='\"' end='\"'
 
 " }}}
 " Highlighting Groups: {{{
